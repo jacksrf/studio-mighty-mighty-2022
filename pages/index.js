@@ -12,6 +12,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+        <div className={styles.header}>
+          <div className={styles.main_holder}>
+            <ul className={styles.nav}>
+              <li className={styles.active}><a href="/"><div></div><span>Work</span></a></li>
+              <li><a href="/about"><div></div><span>About</span></a></li>
+              <li><a href="/contact"><div></div><span>Contact</span></a></li>
+            </ul>
+            <div className={styles.logo}>
+              <a href="/">
+                <img src="/mark.svg"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className={styles.site_header_content}>
 
           <div className={styles.home_top_section}>
@@ -20,7 +36,9 @@ export default function Home() {
 
           <div className={styles.home_large_text}>Helping brands figure out who they are and who they want to <strong>become</strong>.</div>
 
-
+          <div className={styles.collage}>
+            <img src="/collage.png"/>
+          </div>
         </div>
       </main>
 
