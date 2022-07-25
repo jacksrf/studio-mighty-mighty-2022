@@ -1,129 +1,185 @@
-.container {
-  padding: 0 2rem;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-LightItalic.eot');
+    src: url('./fonts/RiformaLL-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-LightItalic.woff2') format('woff2'),
+        url('./fonts/RiformaLL-LightItalic.woff') format('woff'),
+        url('./fonts/RiformaLL-LightItalic.ttf') format('truetype'),
+        url('./fonts/RiformaLL-LightItalic.svg#RiformaLL-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-BoldItalic.eot');
+    src: url('./fonts/RiformaLL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-BoldItalic.woff2') format('woff2'),
+        url('./fonts/RiformaLL-BoldItalic.woff') format('woff'),
+        url('./fonts/RiformaLL-BoldItalic.ttf') format('truetype'),
+        url('./fonts/RiformaLL-BoldItalic.svg#RiformaLL-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Heavy.eot');
+    src: url('./fonts/RiformaLL-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Heavy.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Heavy.woff') format('woff'),
+        url('./fonts/RiformaLL-Heavy.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Heavy.svg#RiformaLL-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Medium.eot');
+    src: url('./fonts/RiformaLL-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Medium.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Medium.woff') format('woff'),
+        url('./fonts/RiformaLL-Medium.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Medium.svg#RiformaLL-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-HeavyItalic.eot');
+    src: url('./fonts/RiformaLL-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-HeavyItalic.woff2') format('woff2'),
+        url('./fonts/RiformaLL-HeavyItalic.woff') format('woff'),
+        url('./fonts/RiformaLL-HeavyItalic.ttf') format('truetype'),
+        url('./fonts/RiformaLL-HeavyItalic.svg#RiformaLL-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Bold.eot');
+    src: url('./fonts/RiformaLL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Bold.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Bold.woff') format('woff'),
+        url('./fonts/RiformaLL-Bold.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Bold.svg#RiformaLL-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Light.eot');
+    src: url('./fonts/RiformaLL-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Light.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Light.woff') format('woff'),
+        url('./fonts/RiformaLL-Light.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Light.svg#RiformaLL-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
-.title,
-.description {
-  text-align: center;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Regular.eot');
+    src: url('./fonts/RiformaLL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Regular.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Regular.woff') format('woff'),
+        url('./fonts/RiformaLL-Regular.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Regular.svg#RiformaLL-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-Italic.eot');
+    src: url('./fonts/RiformaLL-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-Italic.woff2') format('woff2'),
+        url('./fonts/RiformaLL-Italic.woff') format('woff'),
+        url('./fonts/RiformaLL-Italic.ttf') format('truetype'),
+        url('./fonts/RiformaLL-Italic.svg#RiformaLL-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+@font-face {
+    font-family: 'Riforma LL';
+    src: url('./fonts/RiformaLL-MediumItalic.eot');
+    src: url('./fonts/RiformaLL-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/RiformaLL-MediumItalic.woff2') format('woff2'),
+        url('./fonts/RiformaLL-MediumItalic.woff') format('woff'),
+        url('./fonts/RiformaLL-MediumItalic.ttf') format('truetype'),
+        url('./fonts/RiformaLL-MediumItalic.svg#RiformaLL-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+.site_header_content {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding-top: 6.4vmin;
+    padding-bottom: 6.4vmin;
+    text-align: center;
+    color: #ffffff;
     flex-direction: column;
-  }
+    align-items: flex-start;
+    background: white;
+    padding: 40px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.home_top_section {
+    mix-blend-mode: difference;
+    border-top: 2px solid #171717;
+    padding-top: 14px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    margin-top: 75px;
+}
+
+.mightymighty {
+    font-family: 'Riforma LL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 89.9%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+}
+
+.home_large_text {
+    width: 100%;
+    display: flex;
+    margin: 120px 0px 0;
+    font-family: 'Riforma LL';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 70.1918px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-align: left;
+    display: inline-block;
+    padding-right: 15%;
+    mix-blend-mode: difference;
 }
